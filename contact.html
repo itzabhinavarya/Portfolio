@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-us Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body onload="loading();">
+    <div class="sign-up">
+        <!-- <img src="logo.png" alt=""> -->
+        <img src="img/chart.webp" alt="">
+        <p id="getting-started">Getting Started with me.😉✌</p>
+        <div class="main-img">
+            <!-- Abstraction image  -->
+            <!-- <img src="Abstraction.png" alt=""> -->
+            <img src="img/laptop.webp" alt="">
+            <img src="img/phone.webp" alt="">
+            <img src="img/peopleUI.png" alt="">
+        </div>
+        <div class="form">
+            <p id="createAccount">Get Connected</p>
+            <div class="google">
+            <a href="mailto:aryaabhinav39@gmail.com">
+                <img src="img/gmail.png" alt="">
+                <p id="sign-heading">with Gmail</p>
+            </a>
+            </div>
+            <div class="facebook">
+            <a href="https://instagram.com/itzabhinavarya">
+                <img src="img/instagram.png" alt="">
+                <p id="sign-heading">with Instagram</p>
+            </a>
+            </div>
+            <div class="or">
+                <p>-- OR --</p>
+            </div>
+            <div class="form-details">
+                <form action="https://formspree.io/f/mnqrwgbk" method="POST" name="myForm" onsubmit="return validation();">
+                    <input type="text" name="name" id="name" placeholder="Full Name" autocomplete="off" required>
+                    <input type="number" name="phone" id="phone" placeholder="Phone" autocomplete="off" required>
+                    <input type="text" name="text" id="message" placeholder="Your Message" autocomplete="off" required><span><img src="img/messenger.png" alt=""></span>
+                    <button type="submit">CONNECT</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Abhinav Arya ~ All Right Reserved(2021-23)</p>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>

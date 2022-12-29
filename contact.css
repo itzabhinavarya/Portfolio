@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    /* background: rgba(26, 74, 96, 0.8); */
+    background: url(img/pattern.jpg);
+    /* background: url(leavess.svg); */
+    width: 100%;
+}
+
+.sign-up {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left: 230px;
+    top: 65px;
+    background: #1F485B;
+    box-shadow: 4px 4px 26px rgba(255, 255, 255, 0.37), 4px 4px 16px rgba(255, 255, 255, 0.15), -4px 4px 26px rgba(75, 100, 119, 0.69);
+    border-radius: 20px;
+}
+
+.sign-up img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    top: 7px;
+}
+
+.sign-up p {
+    position: absolute;
+    width: 285px;
+    height: 70px;
+    left: 40px;
+    top: 100px;
+    font-family: 'Patrick Hand',monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+}
+
+.main-img {
+    /* background: url(Abstraction.png); */
+    position: absolute;
+    width: 400px;
+    height: 320px;
+    top: 190px;
+    left: 0;
+}
+
+.main-img img {
+    /* transform: matrix(0.99, -0.16, 0.17, 0.99, 0, 0); */
+    width: 403px;
+    height: 320px;
+    position: absolute;
+    left: 5px;
+    top: 0;
+    z-index: 9;
+}
+
+.main-img img:nth-child(1){
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+}
+.main-img img:nth-child(2){
+    position: absolute;
+    left: 115px;
+    top: 145px;
+    width: 100px;
+    height: 100px;
+}
+
+.form {
+    width: 470px;
+    height: 200px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 330px;
+    height: 500px;
+    border-radius: 18px;
+}
+
+.form p {
+    position: absolute;
+    width: 221px;
+    height: 35px;
+    /* font-family: 'Poppins'; */
+    top: 35px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.google {
+    position: absolute;
+    Width: 200px;
+    Height: 40px;
+    background-color: #000000;
+    /* Top: 150px; */
+    top: 85px;
+    Left: 40px;
+    border-radius: 2px 12px;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.facebook {
+    position: absolute;
+    Width: 218px;
+    Height: 40px;
+    background-color: #000000;
+    border-radius: 2px 12px;
+    /* Top: 150px; */
+    top: 85px;
+    Left: 245px;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.google img {
+    top: 5px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.google p {
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    position: absolute;
+    top: 1.2px;
+    width: 160px;
+    letter-spacing: 0;
+    color: antiquewhite;
+}
+
+.facebook img {
+    top: 5px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.facebook p {
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    position: absolute;
+    top: 1.2px;
+    letter-spacing: 0;
+    color: antiquewhite;
+    width: 180px;
+}
+
+.google:hover {
+    margin-top: -1px;
+    transition: 0.5s;
+}
+
+.facebook:hover {
+    transition: 0.5s;
+    margin-top: -1px;
+}
+
+.or {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    text-align: center;
+}
+
+.or p {
+    position: absolute;
+    width: 100px;
+    left: 100px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #b4aaaa;
+}
+
+.form-details {
+    position: absolute;
+    top: 260px;
+    width: 330px;
+    height: 220px;
+    left: 60px;
+    display: block;
+}
+
+.form-details input {
+    width: 300px;
+    height: 30px;
+    margin: 10px 10px;
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.form-details input:focus {
+    border-color: #1F485B;
+}
+
+.form-details button {
+    position: relative;
+    top: 10px;
+    left: 125px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Patrick Hand',monospace;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    background: linear-gradient(150deg, #5ee878 , #00c3ff);
+    border-radius: 2px 12px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.form-details button:hover {
+    background: linear-gradient(90deg, #099bc8,#2dab44);
+    transition: 1s ease-in-out;
+}
+.form-details span{
+    position: absolute;
+    top: 0;
+}
+.form-details span img{
+    width: 25px;
+    top: 137px;
+    /* left: 300px; */
+    left: -42px;
+    height: 25px;
+}
+.form-details #lock-span{
+    position: absolute;
+    top: 0px;
+}
+#lock{
+    position: absolute;
+    top: 77px;
+}
+
+
+/* ================================== */
+form{
+    position: absolute;
+    top: -45px;
+}
+
+input::placeholder{
+    font-family: 'Patrick Hand',monospace;
+}
+
+.accountExist{
+    position: absolute;
+    top: 200px;
+    left: -9px;
+    text-align: center;
+}
+.accountExist p{
+    font-size: 0.8rem;
+    width: 300px;
+    position: absolute;
+    color: #3f3d3d;
+    cursor: pointer;
+}
+
+#accountExist{
+    position: absolute;
+    top: 0px;
+    left: -9px;
+    text-align: center;
+}
+#alreadyMember{
+    font-size: 0.8rem;
+    top: 175px;
+    width: 300px;
+    position: absolute;
+    color: #3f3d3d;
+    cursor: pointer;
+}
+
+
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    /* width: 400px;
+    height: 30px; */
+}
+.copyright p{
+    position: absolute;
+    font-size: 0.8rem;
+    left: 0;
+    top: 500px;
+    width: 800px;
+    height: 30px;
+    color: #000000;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1200px){
+    .sign-up{
+        left: 6%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .sign-up{
+        left: 4%;
+    }
+}
+@media screen and (max-width:900px){
+    .sign-up{
+        left: 0;
+    }
+}
+@media screen and (max-width:760px){
+    .sign-up{
+        /* left: 6%; */
+        left: 0;
+    }
+}
+@media screen and (max-width:560px){
+    .sign-up{
+        /* left: 4%; */
+        left: 0;
+    }
+}
+@media screen and (max-width:500px){
+    .sign-up{
+        /* left: 1%; */
+        left: 0;
+        width: 500px;
+    }
+    #getting-started{
+        width: 420px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    #createAccount{
+        width: 415px;
+    }
+    .google{
+        width: 220px;
+    }
+    .facebook{
+        width: 220px;
+        left: 270px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
+    }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
+}
+@media screen and (max-width:440px){
+    .sign-up{
+        left: 0;
+        width: 500px;
+    }
+    #getting-started{
+        width: 420px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    #createAccount{
+        width: 415px;
+    }
+    .google{
+        width: 220px;
+    }
+    .facebook{
+        width: 220px;
+        left: 270px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
+    }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
+}
+@media screen and (max-width:390px){
+    .sign-up{
+        left: 0;
+        width: 500px;
+    }
+    #getting-started{
+        width: 420px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    #createAccount{
+        width: 415px;
+    }
+    .google{
+        width: 220px;
+    }
+    .facebook{
+        width: 220px;
+        left: 270px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
+    }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
+}
+@media screen and (max-width:250px){
+    .sign-up{
+        left: 0;
+        width: 500px;
+    }
+    #getting-started{
+        width: 420px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    #createAccount{
+        width: 415px;
+    }
+    .google{
+        width: 220px;
+    }
+    .facebook{
+        width: 220px;
+        left: 270px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
+    }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
+}
+@media screen and (max-width:150px){
+    .sign-up{
+        left: 0;
+        width: 500px;
+    }
+    #getting-started{
+        width: 420px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    #createAccount{
+        width: 415px;
+    }
+    .google{
+        width: 220px;
+    }
+    .facebook{
+        width: 220px;
+        left: 270px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
+    }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
+}
