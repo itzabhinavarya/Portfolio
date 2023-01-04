@@ -1,5 +1,6 @@
 .navbar-nav {
     margin-left: auto;
+    z-index: 9;
 }
 #myPic{
     display: flex;
@@ -12,9 +13,6 @@
     height: 540px;
 }
 .my-nav-link li a{
-    /* font-weight: bolder; */
-    /* font-family: 'PT Mono'; */
-    /* font-family: 'Montserrat'; */
     font-family: 'Outfit';
     margin: 10px;
     letter-spacing: 2px;
@@ -33,19 +31,305 @@
 .cnt{
     margin-top: 130px;
 }
-.container{
+.front-heading{
     margin-top: 100px;
+    position: relative;
+    z-index: 1;
 }
-.container p{
+.front-heading p{
     font-family: 'PT Mono',monospace;
     font-weight: 600;
     letter-spacing: 1.5px;
 }
-.container button{
+.front-heading button{
     font-family: 'outfit';
     letter-spacing: 2px;
 }
-.container button:nth-child(3){
+.front-heading button:nth-child(3){
     margin-left: 20px;
-    width:85px;
+    width:95px;
+}
+.main-page-img{
+    position: absolute;
+    top: 80px;
+}
+.main-page-img img:nth-child(1){
+    position: relative;
+    top: 110px;
+}
+.main-page-img img:nth-child(3){
+    position: relative;
+    margin-left: 99px;
+}
+
+@media screen and (min-width:1100px) and (max-width:1200px){
+
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 156px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        right: 3px;
+    }
+}
+@media screen and (min-width:1060px) and (max-width:1100px){
+
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 156px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        right: 3px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1060px){
+
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 156px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 60px;
+        right: 70px;
+        width: 400px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1000px){
+
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 156px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 400px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 187px;
+    }
+    .main-page-img img:nth-child(2){
+        width: 300px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 380px;
+    }
+    .second .intro-txt{
+        position: relative;
+        top: 50px;
+        width: 60%;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 219px;
+    }
+    .main-page-img img:nth-child(2){
+        width: 240px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 360px;
+    }
+    .second .intro-txt{
+        position: relative;
+        top: 50px;
+        width: 70%;
+    }
+    .second img:nth-child(1){
+        width: 130px;
+    }
+    #laptop{
+        width: 130px;
+    }
+} 
+@media screen and (min-width:600px) and (max-width:700px){
+
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 219px;
+    }
+    .main-page-img img:nth-child(2){
+        width: 240px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 110px;
+        right: 0;
+        width: 350px;
+    }
+    .second .intro-txt{
+        position: relative;
+        top: 40px;
+        width: 60%;
+    }
+    .second img:nth-child(1){
+        width: 130px;
+    }
+    #laptop{
+        width: 120px;
+    }
+    .intro-txt p{
+        font-size: 0.9em;
+    }
+} 
+@media screen and (min-width:500px) and (max-width:600px){
+
+    .my-nav-bar{
+        border-radius: 0;
+    }
+    .main-page-img img:nth-child(1){
+        position: relative;
+        top: 219px;
+    }
+    .main-page-img img:nth-child(2){
+        width: 240px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 140px;
+        right: 0;
+        width: 320px;
+    }
+    .second .intro-txt{
+        position: relative;
+        top: 30px;
+        width: 60%;
+    }
+    .second img:nth-child(1){
+        width: 110px;
+    }
+    #laptop{
+        width: 100px;
+    }
+    .intro-txt p{
+        font-size: 0.8em;
+    }
+} 
+@media screen and (min-width:400px) and (max-width:500px){
+
+    .my-nav-bar{
+        border-radius: 0;
+    }
+    .main-page-img img:nth-child(1){
+        display: none;
+    }
+    .main-page-img img:nth-child(2){
+        width: 240px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 140px;
+        right: 10%;
+        width: 320px;
+    }
+    .second .intro-txt{
+        position: relative;
+        top: 30px;
+        width: 60%;
+    }
+    .second img:nth-child(1){
+        width: 70px;
+    }
+    #laptop{
+        width: 70px;
+    }
+    .intro-txt p{
+        font-size: 0.6em;
+    }
+} 
+@media screen and (min-width:300px) and (max-width:400px){
+
+    .my-nav-bar{
+        border-radius: 0;
+    }
+    .main-page-img img:nth-child(1){
+        display: none;
+    }
+    .main-page-img img:nth-child(2){
+        width: 240px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 170px;
+        right: 2%;
+        width: 290px;
+    }
+    .second .intro-txt{
+        position: relative;
+        top: 30px;
+        width: 60%;
+    }
+    .second img:nth-child(1){
+        width: 70px;
+    }
+    #laptop{
+        width: 70px;
+    }
+    .intro-txt p{
+        font-size: 0.5em;
+    }
+} 
+@media screen and (min-width:200px) and (max-width:300px){
+
+    .my-nav-bar{
+        border-radius: 0;
+    }
+    .main-page-img img:nth-child(1){
+        display: none;
+    }
+    .main-page-img img:nth-child(2){
+        width: 140px;
+    }
+    .main-page-img img:nth-child(3){
+        position: absolute;
+        top: 260px;
+        right: 0px;
+        width: 200px;
+    }
+    .second .intro-txt{
+        position: relative;
+        top: 30px;
+        width: 60%;
+    }
+    .second img:nth-child(1){
+        width: 50px;
+    }
+    #laptop{
+        width: 50px;
+    }
+    .intro-txt p{
+        font-size: 0.4em;
+    }
+} 
+/* ---------------------------------------------------------------- */
+.second img:nth-child(1){
+    position: absolute;
+    right: 0;
+}
+
+.intro-txt{
+    position: relative;
+    top: 60px;
+    width: 70%;
+}
+.intro-txt p{
+    font-family: 'pt mono';
+    font-weight: 700;
+    animation: 1s ease-out infinite;
 }
