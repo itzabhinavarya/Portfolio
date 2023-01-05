@@ -1,15 +1,9 @@
-// $(document).ready(function(){
-//     var i = $("img");
-//     i.animate({top:'5px',bottom:'5px'},"slow");
-// });
 
-// $(document).ready(function() {
-//     setInterval(function() {
-//         $('#animate').slideUp('5000', function() {
-//             $('#animate').slideDown('5000');
-//         });
-//     }, 1500);
-// });
+// var preloader = document.getElementById('preloader');
+// function loader(){
+//     preloader.style.display = 'none';
+// }
+
 function loop() {
     $('#animate').animate({'top': '525'}, {
         duration: 800, 
@@ -33,10 +27,6 @@ function newloop() {
 newloop();
 
 
-var preloader = document.getElementById('preloader');
-function loader(){
-    preloader.style.display = 'none';
-}
 
 window.onload = (event) => {
     let myAlert = document.querySelector('.toast');
