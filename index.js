@@ -32,3 +32,14 @@ function newloop() {
 }
 newloop();
 
+
+var preloader = document.getElementById('preloader');
+function loader(){
+    preloader.style.display = 'none';
+}
+
+window.onload = (event) => {
+    let myAlert = document.querySelector('.toast');
+    let bsAlert = new bootstrap.Toast(myAlert);
+    bsAlert.show();
+}

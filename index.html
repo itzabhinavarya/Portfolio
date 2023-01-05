@@ -6,32 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhinav Arya</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="img/man.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=PT+Mono&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=PT+Mono&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body>
+
+<body onload="loader()">
+    <!-- <div id="preloader">
+
+    </div> -->
     <div class="my-nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="img/My-Pic-Circle.png" id="myPic" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="index.html"><img src="img/My-Pic-Circle.png" id="myPic" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav my-nav-link">
-                        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="">Experience</a></li>
                     </ul>
-              </div>
+                </div>
             </div>
         </nav>
 
@@ -39,26 +52,147 @@
 
         <div class="container front-heading">
             <p>My name is Abhinav Arya;<br> Programmer And Web-Developer&lt;/&gt;</p>
-            <button type="button" class="btn btn-warning">Resume</button>
-            <button type="button" class="btn btn-outline-dark">Hire Me</button>
+            <a href="Abhinav Arya(Resume).pdf" download=""><button type="button"
+                    class="btn btn-warning">Resume</button></a>
+            <a href="mailto:itzabhinavarya@gmail.com"><button type="button" class="btn btn-outline-dark">Hire
+                    Me</button></a>
         </div>
 
-        <div class="container main-page-img" >
+        <div class="container main-page-img">
             <img src="img/Saly-9.png" alt="">
             <img src="img/Doodle Dots.png" alt="">
-            <img src="img/Saly-10.png" alt="" id="laptop">
+            <img src="img/Saly-10.png" alt="">
         </div>
     </div>
 
-<div class="second">
-    <img src="img/rocket-cloud.png" alt="" id="animate">
-    <div class="container intro-txt">
+    <div class="second">
+        <img src="img/rocket-cloud.png" alt="" id="animate">
+        <div class="container intro-txt">
             <p>Hi, I’m Abhinav Arya . Nice to meet you.
-                Since beginning my journey as a freelance designer over 1 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
+                Since beginning my journey as a freelance designer over 1 years ago, I've done remote work for agencies,
+                consulted for startups, and collaborated with talented people to create digital products for both
+                business and consumer use. I'm quietly confident, naturally curious, and perpetually working on
+                improving my chops one design problem at a time.
             </p>
+        </div>
+        <img src="img/boy-lappy.png" id="laptop" alt="">
     </div>
-    <img src="img/boy-lappy.png" id="laptop" alt="" >
-</div>
-<script src="index.js"></script>
+
+
+    <div class="container shadow p-3 mb-5 bg-white rounded main-card-section ">
+
+        <div class="card mb-3 shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 540px;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img/boy-girl.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Worked as a team</h5>
+                        <p class="card-text">Teamwork is always said to be the key to success.I had learned lot More 
+                            things and skills as well by working as a team.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card mb-3 sec-card shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 540px;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img/scooter-boy.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Frelancing</h5>
+                        <p class="card-text">As a freelancer,there is no boundation on you.You can grow yourself as u want,
+                            in my free time i always try to get the opportunity to grind myself.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card mb-3 shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 540px;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="img/men-laptop-standing.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Employee</h5>
+                        <p class="card-text">Being an employee,it's always an unique and great feeling when you are surrounded
+                            with more extra-ordinary people.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 1 year ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="toast notification" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <img src="img/My-Pic-Circle.png" class="rounded mr-2" alt="..." width="35px">
+            <strong class="mr-auto notification-txt"
+                style="margin-right: 100px;">&nbsp;&nbsp;Abhinav&nbsp;&nbsp;</strong>
+            <small style="margin-right: auto;" class="notification-txt">just now</small>
+            <button type="button" class="ml-2 mb-1  close notification-txt" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="toast-body notification-txt">
+            Hey...Welcome To My Portfolio 😎
+        </div>
+    </div>
+
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner main-carousel">
+            <div class="carousel-item active c-img">
+                <img src="banner/Abhinav Arya.png" id="carousel-img" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item c-img">
+                <img src="banner/my-code.png" id="carousel-img" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item c-img">
+                <img src="banner/Banner3.png" id="carousel-img" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <script src="index.js"></script>
 </body>
+
 </html>
