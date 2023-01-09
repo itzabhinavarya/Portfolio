@@ -10,7 +10,12 @@
     /* display: none; */
     z-index: 9999;
 } 
-
+#myName{
+    position: relative;
+    top: 8px;
+    font-family: 'sacramento';
+    font-size: 30px;
+}
 
 #myPic{
     display: flex;
@@ -84,6 +89,9 @@
     .main-page-img img:nth-child(3){
         position: absolute;
         right: 3px;
+    }
+    #myName{
+        display: none;
     }
 }
 @media screen and (min-width:1060px) and (max-width:1100px){
@@ -203,6 +211,9 @@
 } 
 @media screen and (min-width:500px) and (max-width:600px){
 
+    #myName{
+        display: none;
+    }
     .my-nav-bar{
         border-radius: 0;
     }
@@ -236,6 +247,9 @@
 } 
 @media screen and (min-width:400px) and (max-width:500px){
 
+    #myName{
+        display: none;
+    }
     .my-nav-bar{
         border-radius: 0;
     }
@@ -268,6 +282,9 @@
 } 
 @media screen and (min-width:300px) and (max-width:400px){
 
+    #myName{
+        display: none;
+    }
     .my-nav-bar{
         border-radius: 0;
     }
@@ -300,6 +317,9 @@
 } 
 @media screen and (min-width:200px) and (max-width:300px){
 
+    #myName{
+        display: none;
+    }
     .my-nav-bar{
         border-radius: 0;
     }
@@ -367,9 +387,9 @@
 .notification-txt{
     font-family: 'PT Mono';
 }
-.main-carousel{
+/* .main-carousel{
     padding: 30px 30px;
-}
+} */
 
 .all-card{
     /* background-color: #5B5C68 !important; */
@@ -392,4 +412,11 @@
 .c-img{
     border-radius: 2px 25px !important;
     overflow: hidden;
+}
+#team-work{
+    width: 200px;
+}
+#scotter{
+    width: 200px;
+    padding-top: 20px;
 }
