@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E0F6F8;
+    /* background: url('img/Sprinkle1.svg'),#E0F6F8; */
+}
+
+.main-card-section{
+    margin-top:50px;
+    height: 450px;
+    display: flex;
+}
+.all-card{
+    height: 415px;
+}
+.internal-card{
+    width: 100%;
+    margin-top: 50px;
+}
+.edu-heading{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: auto;
+}
+.edu-heading p{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'PT mono';
+    font-weight: 700;
+    font-size:20px;
+}

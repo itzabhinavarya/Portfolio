@@ -56,6 +56,41 @@
     font-weight: 600;
     letter-spacing: 1.5px;
 }
+.f-h .text{
+    position: relative;
+    color: #4070F4;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'PT mono';
+    letter-spacing: 1.5px;
+}
+.f-h .text.first-text{
+    color: #000;
+}
+#cursor-txt{
+    position: relative;
+    top: -10px;
+}
+.text.second-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #E0F6F8;
+    border-left: 2px solid #4070F4;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%,60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
 .front-heading button{
     font-family: 'outfit';
     letter-spacing: 2px;
@@ -154,6 +189,10 @@
 }
 @media screen and (min-width:700px) and (max-width:800px){
 
+    #men-lappy{
+        width: 220px;
+        height: 220px;
+    }
     .main-page-img img:nth-child(1){
         position: relative;
         top: 219px;
@@ -181,6 +220,10 @@
 } 
 @media screen and (min-width:600px) and (max-width:700px){
 
+    #men-lappy{
+        width: 200px;
+        height: 200px;
+    }
     .main-page-img img:nth-child(1){
         position: relative;
         top: 219px;
@@ -211,6 +254,10 @@
 } 
 @media screen and (min-width:500px) and (max-width:600px){
 
+    #men-lappy{
+        width: 200px;
+        height: 200px;
+    }
     #myName{
         display: none;
     }
@@ -247,6 +294,10 @@
 } 
 @media screen and (min-width:400px) and (max-width:500px){
 
+    #men-lappy{
+        width: 200px;
+        height: 200px;
+    }
     #myName{
         display: none;
     }
@@ -282,6 +333,10 @@
 } 
 @media screen and (min-width:300px) and (max-width:400px){
 
+    #men-lappy{
+        width: 200px;
+        height: 200px;
+    }
     #myName{
         display: none;
     }
@@ -317,6 +372,10 @@
 } 
 @media screen and (min-width:200px) and (max-width:300px){
 
+    #men-lappy{
+        width: 200px;
+        height: 200px;
+    }
     #myName{
         display: none;
     }
@@ -420,3 +479,15 @@
     width: 200px;
     padding-top: 20px;
 }
+
+
+.main-footer{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(45deg,#7bdcb5,#32ded4) no-repeat;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 50% 50% 0 0/100% 100% 0 0;
+    transform: scaleY(1);
+}
+
