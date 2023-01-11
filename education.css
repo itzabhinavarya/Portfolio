@@ -3,11 +3,16 @@
     padding: 0;
 }
 body{
-    background-color: #E0F6F8;
+    background-color: #fff;
+    /* height: 100px; */
     /* background: url('img/Sprinkle1.svg'),#E0F6F8; */
 }
+.hero{
+    background-color: #E0F6F8;
+    height: 120vh;
+}
 
-.main-card-section{
+/* .main-card-section{
     margin-top:50px;
     height: 450px;
     display: flex;
@@ -20,7 +25,7 @@ body{
     margin-top: 50px;
 }
 .edu-heading{
-    display: flex;
+    display: block;
     height: 30px;
     justify-content: center;
     text-align: center;
@@ -28,12 +33,83 @@ body{
     width: auto;
 }
 .edu-heading p{
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     font-family: 'PT mono';
     font-weight: 700;
-    font-size:20px;
+    font-size:15px;
+}
+.edu-heading h3{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'PT mono';
+    font-weight: 700;
+    font-size:30px;
+    letter-spacing: 2px;
+} */
+
+.txt-pg{
+    width: 100%;
+    text-align: center;
+}
+.txt-pg h1{
+    font-family: 'PT mono';
+    font-weight: 700;
+    font-size:30px;
+    letter-spacing: 2px;
+    width: auto;
+    height: auto;
+}
+.txt-pg p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'PT mono';
+    font-weight: 700;
+    font-size:1em;
+    width: 100%;
+}
+.first-card{
+    width: 1000px !important;
+    height: 350px;
+}
+.first-card .img{
+    /* width: 50%; */
+    height: 30%;  
+    background: url('img/college-logo.png')no-repeat center; 
+    height: 100%;
+    width: 30%;
+}
+/* .sec-card{
+    width: 1050px !important;
+    height: 350px;
+}
+.sec-card .img{
+    width: 50%;
+    height: 30%;  
+    background: url('img/college-logo.png')no-repeat center; 
+    height: 100%;
+    width: 60%;
+}
+.third-card{
+    width: 1050px !important;
+    height: 350px;
+}
+.third-card .img{
+    width: 50%;
+    height: 30%;  
+    background: url('img/college-logo.png')no-repeat center; 
+    height: 100%;
+    width: 60%;
+} */
+.edu-cards{
+    margin: 110px;
 }
