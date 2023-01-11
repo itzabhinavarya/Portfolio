@@ -105,6 +105,7 @@
 .main-page-img{
     position: absolute;
     top: 80px;
+    z-index: 0;
 }
 .main-page-img img:nth-child(1){
     position: relative;
@@ -172,6 +173,10 @@
         position: relative;
         top: 187px;
     }
+    .my-nav-link{
+        position: relative !important;
+        z-index: 9999;
+    }
     .main-page-img img:nth-child(2){
         width: 300px;
     }
@@ -192,6 +197,10 @@
     #men-lappy{
         width: 220px;
         height: 220px;
+    }
+    .my-nav-link{
+        position: relative !important;
+        z-index: 999;
     }
     .main-page-img img:nth-child(1){
         position: relative;
@@ -223,6 +232,10 @@
     #men-lappy{
         width: 200px;
         height: 200px;
+    }
+    .my-nav-link{
+        position: relative !important;
+        z-index: 999;
     }
     .main-page-img img:nth-child(1){
         position: relative;
@@ -264,6 +277,10 @@
     .my-nav-bar{
         border-radius: 0;
     }
+    .my-nav-link{
+        position: relative !important;
+        z-index: 999;
+    }
     .main-page-img img:nth-child(1){
         position: relative;
         top: 219px;
@@ -304,6 +321,10 @@
     .my-nav-bar{
         border-radius: 0;
     }
+    .my-nav-link{
+        position: relative !important;
+        z-index: 999;
+    }
     .main-page-img img:nth-child(1){
         display: none;
     }
@@ -343,6 +364,10 @@
     .my-nav-bar{
         border-radius: 0;
     }
+    .my-nav-link{
+        position: relative !important;
+        z-index: 999;
+    }
     .main-page-img img:nth-child(1){
         display: none;
     }
@@ -381,6 +406,10 @@
     }
     .my-nav-bar{
         border-radius: 0;
+    }
+    .my-nav-link{
+        position: relative !important;
+        z-index: 999;
     }
     .main-page-img img:nth-child(1){
         display: none;
