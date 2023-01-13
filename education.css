@@ -113,3 +113,149 @@ body{
 .edu-cards{
     margin: 110px;
 }
+.sec-pg{
+    width: 80% !important;
+    height: auto !important;
+    display: flex;
+    margin: 8% 10%;
+}
+.sec-img{
+    width: 40% !important;
+}
+.sec-img img{
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    margin: auto;
+    position: relative;
+    top: 90px;
+}
+.sec-heading{
+    width: 60%;
+}
+@media screen and (min-width:1100px) and (max-width:1200px){
+    
+    
+}
+@media screen and (min-width:1060px) and (max-width:1100px){
+    .sec-pg{
+        position: relative;
+        top: -22%;
+    }
+    
+}
+@media screen and (min-width:1000px) and (max-width:1060px){
+    .sec-pg{
+        position: relative;
+        top: -22%;
+    }
+    
+}
+@media screen and (min-width:900px) and (max-width:1000px){
+
+    
+}
+@media screen and (min-width:800px) and (max-width:900px){
+
+    
+}
+@media screen and (min-width:700px) and (max-width:800px){
+
+    
+} 
+@media screen and (min-width:600px) and (max-width:700px){
+    .sec-pg{
+        width: auto !important;
+        height: auto !important;
+        display: block;
+    }
+    .sec-img{
+        width: 100% !important;
+    }
+    .sec-img img{
+        margin: auto;
+    }
+    .sec-heading{
+        position: relative;
+        margin-top: 130px;
+        width: 100%;
+    }
+    
+} 
+@media screen and (min-width:500px) and (max-width:600px){
+    .sec-pg{
+        width: auto !important;
+        height: auto !important;
+        display: block;
+    }
+    .sec-img{
+        width: 100% !important;
+    }
+    .sec-img img{
+        margin: auto;
+    }
+    .sec-heading{
+        position: relative;
+        margin-top: 130px;
+        width: 100%;
+    }
+    
+} 
+@media screen and (min-width:400px) and (max-width:500px){
+    .sec-pg{
+        width: auto !important;
+        height: auto !important;
+        display: block;
+    }
+    .sec-img{
+        width: 100% !important;
+    }
+    .sec-img img{
+        margin: auto;
+    }
+    .sec-heading{
+        position: relative;
+        margin-top: 130px;
+        width: 100%;
+    }
+    
+} 
+@media screen and (min-width:300px) and (max-width:400px){
+    .sec-pg{
+        width: auto !important;
+        height: auto !important;
+        display: block;
+    }
+    .sec-img{
+        width: 100% !important;
+    }
+    .sec-img img{
+        margin: auto;
+    }
+    .sec-heading{
+        position: relative;
+        margin-top: 130px;
+        width: 100%;
+    }
+    
+} 
+@media screen and (min-width:200px) and (max-width:300px){
+    .sec-pg{
+        width: auto !important;
+        height: auto !important;
+        display: block;
+    }
+    .sec-img{
+        width: 100% !important;
+    }
+    .sec-img img{
+        margin: auto;
+    }
+    .sec-heading{
+        position: relative;
+        margin-top: 130px;
+        width: 100%;
+    }
+    
+} 
+
