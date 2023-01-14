@@ -22,6 +22,17 @@
     width: 70px;
     height: 70px;
 }
+button{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+button:hover{
+    box-shadow:none;
+    transition: 0.7s !important;
+}
+button:active{
+    transition: 0.7s;
+    transform: translateY(-5px);
+}
 .my-nav-bar{
     background-color: #E0F6F8;
     border-radius: 0px 0px 166px 0px;
