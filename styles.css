@@ -22,14 +22,14 @@
     width: 70px;
     height: 70px;
 }
-#btn{
+#p-btn{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
 }
-#btn:hover{
+#p-btn:hover{
     box-shadow:none !important;
     transition: 0.7s !important;
 }
-#btn:active{
+#p-btn:active{
     transition: 0.7s !important;
     transform: translateY(-5px) !important;
 }
