@@ -138,10 +138,44 @@ body{
 }
 .third-page{
     width: 80% !important;
-    height: 300px !important;
+    height: 50px !important;
     display: flex;
     margin: 8% 10%;
-    background-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #E0F6F8 !important;
+}
+.third-page:hover{
+    background-color: #000000 !important;
+    transition: 0.7s;
+}
+.third-page:hover p{
+    color: #fff;
+}
+.third-page p{
+    margin-top: 25px;
+}
+.dream-companies{
+    display: flex;
+    width: 2000px !important;
+}
+.dream-companies img{
+    width: 140px;
+    height: 50px;
+    margin: 40px;
+}
+.dream-companies img:nth-child(2){
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: -14px;
+}
+.dream-companies img:nth-child(4){
+    position: relative;
+    top: -20px;
+    width: 200px;
+    height: 100px;
 }
 @media screen and (min-width:1100px) and (max-width:1200px){
     
