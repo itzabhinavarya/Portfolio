@@ -205,6 +205,11 @@
         width: 60%;
     }
 }
+@media screen and (min-width:700px) and (max-width:760px){
+    .profile-cards{
+        margin:40px !important;
+    }
+}
 @media screen and (min-width:700px) and (max-width:800px){
 
     #men-lappy{
@@ -238,6 +243,9 @@
     }
     #laptop{
         width: 130px;
+    }
+    .profile-cards:nth-child(3){
+        margin-top:50px;
     }
 } 
 @media screen and (min-width:600px) and (max-width:700px){
@@ -276,6 +284,9 @@
     }
     .intro-txt p{
         font-size: 0.9em;
+    }
+    .profile-cards{
+        margin:30px !important;
     }
 } 
 @media screen and (min-width:500px) and (max-width:600px){
@@ -321,6 +332,9 @@
     .intro-txt p{
         font-size: 0.8em;
     }
+    .profile-cards{
+        margin:25px !important;
+    }
 } 
 @media screen and (min-width:400px) and (max-width:500px){
 
@@ -364,6 +378,9 @@
     .intro-txt p{
         font-size: 0.6em;
     }
+    .profile-cards{
+        margin:25px !important;
+    }
 } 
 @media screen and (min-width:300px) and (max-width:400px){
 
@@ -406,6 +423,9 @@
     }
     .intro-txt p{
         font-size: 0.5em;
+    }
+    .profile-cards{
+        margin:25px !important;
     }
 } 
 @media screen and (min-width:200px) and (max-width:300px){
@@ -547,6 +567,7 @@
 .profile-cards{
     width: 350px;
     height: 190px;
+    /* height: 330px; */
     background: rgb(0, 0, 0);
     position: relative;
     /* top: 70px; */
@@ -581,8 +602,8 @@
     top: 32px;
     transform: rotate(-30deg);
 }
-.lines p{
-    margin: 16px;
+.para p{
+    margin-left: 16px;
     font-family: 'Outfit';
     
 }
@@ -602,6 +623,7 @@
     z-index: 9;
     width: 100%;
     height: 100px;
+    /* height: 260px; */
     overflow: hidden;
     transform: translateY(-30px);
 }
@@ -615,3 +637,26 @@
     height: 260px;
 } 
 
+.para h5{
+    justify-content: center;
+    display: flex;
+    font-family: 'outfit';
+    font-weight: bold; 
+}
+.para span{
+    font-family: 'outfit';
+    font-size: 0.8rem;
+    justify-content: center;
+    display: flex;
+}
+.card-btn{
+    display: flex;
+    justify-content: center;
+}
+.card-btn button{
+    margin:15px;
+    width: 100px;
+    font-family: 'Outfit';
+    letter-spacing: 2px;
+    border-radius: 2px 10px;
+}
