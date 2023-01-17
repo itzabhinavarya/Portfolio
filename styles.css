@@ -1362,3 +1362,18 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", en
     font-weight: bolder;
     margin: 0;
 }
+
+.skills{
+    margin-top: 80px;
+    height: 450px;
+    box-shadow: 1px 2px 10px 5px rgb(199, 183, 183);
+}
+.progress{
+    margin: 10px;
+}
+
+.all-progress span{
+    position: relative;
+    left: 10px;
+    font-family: 'montserrat',monospace;
+}
