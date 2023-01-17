@@ -1377,3 +1377,40 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", en
     left: 10px;
     font-family: 'montserrat',monospace;
 }
+
+.head{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.head span{
+    font-family: 'montserrat',monospace;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    top: -8px;
+}
+hr{
+    width: 100%;
+    text-decoration: dotted;
+    margin: 10px;
+    border-top: dotted 5px;
+}
+/* .tm{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+
+.tm span{
+    font-family: 'montserrat',monospace;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    top: -8px;
+} */
