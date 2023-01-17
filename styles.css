@@ -65,16 +65,19 @@
     z-index: 1;
 }
 .front-heading p{
-    font-family: 'PT Mono',monospace;
+    font-family: 'Montserrat',monospace;
     font-weight: 600;
     letter-spacing: 1.5px;
+}
+.front-heading span{
+    font-family: 'Montserrat',monospace;
 }
 .f-h .text{
     position: relative;
     color: #4070F4;
     font-size: 1rem;
     font-weight: 700;
-    font-family: 'PT mono';
+    font-family: 'Montserrat'monospace;
     letter-spacing: 1.5px;
 }
 .f-h .text.first-text{
@@ -483,7 +486,7 @@
     width: 70%;
 }
 .intro-txt p{
-    font-family: 'pt mono';
+    font-family: 'Montserrat',monospace;
     font-weight: 700;
     animation: 1s ease-out infinite;
 }
@@ -659,4 +662,27 @@
     font-family: 'Outfit';
     letter-spacing: 2px;
     border-radius: 2px 10px;
+}
+.linkedin{
+    border-color: #0A66C2 !important;
+    color: #0A66C2;
+}
+.linkedin:hover{
+    background-color: #0A66C2 !important;
+}
+.youtube{
+    border-color: #ff0000 !important;
+    color: #FFF;
+    background-color: #FF0000;
+}
+.youtube:hover{
+    background-color: #df1515;
+}
+.twitter{
+    border-color: #1DA1F2 !important;
+    background-color: #1DA1F2 !important;
+    color: #fff;
+}
+.twitter:hover{
+    background-color: #3f8cbd !important;
 }

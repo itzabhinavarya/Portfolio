@@ -40,7 +40,7 @@ const textLoad = () =>{
         text.textContent = "Developer";
     },0);
     setTimeout(()=>{
-        text.textContent = "Frelancer";
+        text.textContent = "Freelancer";
     },4000);
     setTimeout(()=>{
         text.textContent = "Designer";
