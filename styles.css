@@ -750,6 +750,16 @@
         position: relative !important;
         left: 40px !important;
     }
+    .social-icons i{
+        margin: 20px !important;
+        font-size: 1.5rem !important;
+        cursor: pointer;
+    }
+    .main-footer p{
+        position: relative;
+        top: 35px;
+        font-size: 0.7rem !important;
+    }
 }
 
 @media screen and (min-width:300px) and (max-width:400px) {
@@ -859,6 +869,16 @@
         position: relative !important;
         left: 0px !important;
     }
+    .social-icons i{
+        margin: 20px !important;
+        font-size: 1.3rem !important;
+        cursor: pointer;
+    }
+    .main-footer p{
+        position: relative;
+        top: 35px;
+        font-size: 0.5rem !important;
+    }
 }
 
 @media screen and (min-width:200px) and (max-width:300px) {
@@ -964,6 +984,16 @@
         position: relative !important;
         left: -10px !important;
     }
+    .social-icons i{
+        margin: 20px !important;
+        font-size: 0.9rem !important;
+        cursor: pointer;
+    }
+    .main-footer p{
+        position: relative;
+        top: 35px;
+        font-size: 0.5rem !important;
+    }
 }
 
 /* ---------------------------------------------------------------- */
@@ -1048,16 +1078,6 @@
     padding-top: 20px;
 }
 
-
-.main-footer {
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(45deg, #7bdcb5, #32ded4) no-repeat;
-    display: flex;
-    align-items: flex-end;
-    border-radius: 50% 50% 0 0/100% 100% 0 0;
-    transform: scaleY(1);
-}
 
 /* -------------------------------------------------------- */
 .profile {
@@ -1296,10 +1316,14 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", en
 }
 
 .child-testimonial:hover {
-    transform: translateY(1px) !important;
+    margin-top: -10px;
     transition: 1.5s !important;
 }
-
+#abhi:hover{
+    position: relative;
+    margin-top: 40px !important;
+    transition: 1.5s !important;
+}
 .child-testimonial:nth-child(1) {
     transform: translateY(30px);
 }
@@ -1416,3 +1440,76 @@ hr{
     position: relative;
     top: -8px;
 } */
+.main-footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(45deg, #7bdcb5, #32ded4) no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-footer p{
+    font-family: 'Montserrat',monospace;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons i{
+    margin: 40px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.social-icons i:hover{
+    transform: translateY(-10px);
+    transition: 0.8s;
+}
+
+.social-icons i:hover:nth-child(1)::after{
+    content: 'Instagram';
+    font-size: 0.5rem;
+    position: absolute;
+    top: -14px;
+    left: -20px;
+    letter-spacing: 1.5px;
+}
+.social-icons i:hover:nth-child(2)::after{
+    content: 'Youtube';
+    font-size: 0.5rem;
+    position: absolute;
+    top: -14px;
+    left: -8px;
+    letter-spacing: 1.5px;
+}
+.social-icons i:hover:nth-child(3)::after{
+    content: 'LinkedIn';
+    font-size: 0.5rem;
+    position: absolute;
+    top: -14px;
+    left: -13px;
+    letter-spacing: 1.5px;
+}
+.social-icons i:hover:nth-child(4)::after{
+    content: 'Twitter';
+    font-size: 0.5rem;
+    position: absolute;
+    top: -14px;
+    left: -10px;
+    letter-spacing: 1.5px;
+}
+.social-icons i:hover:nth-child(5)::after{
+    content: 'Github';
+    font-size: 0.5rem;
+    position: absolute;
+    top: -14px;
+    left: -6px;
+    letter-spacing: 1.5px;
+}
