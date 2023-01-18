@@ -387,8 +387,8 @@
         margin-top: 50px;
     }
     .main-testimonial{
-        margin-top: 400px;
-        height: 650px !important;
+        margin-top: 200px;
+        height: 750px !important;
         
     }
     .hero-testimonial{
@@ -398,7 +398,7 @@
     .child-testimonial{
         position: relative !important;
         left: -10px !important;
-        top: -40px !important;
+        top: 0px !important;
         
     }
     .child-testimonial:nth-child(2){
@@ -409,7 +409,7 @@
     .child-testimonial:nth-child(3){
         position: relative !important;
         left: -10px !important;
-        top: 0px !important;
+        top: 60px !important;
     }
     .review{
         position: relative !important;
@@ -486,7 +486,7 @@
     }
     .main-testimonial{
         margin-top: 500px ;
-        height: 650px !important;
+        height: 750px !important;
         
     }
     .hero-testimonial{
@@ -496,18 +496,18 @@
     .child-testimonial{
         position: relative !important;
         left: -10px !important;
-        top: -40px !important;
+        top: -30px !important;
         
     }
     .child-testimonial:nth-child(2){
         position: relative !important;
         left: -10px !important;
-        top: 40px !important;
+        top: 10px !important;
     }
     .child-testimonial:nth-child(3){
         position: relative !important;
         left: -10px !important;
-        top: 0px !important;
+        top: 60px !important;
     }
     .review{
         position: relative !important;
@@ -592,7 +592,7 @@
     }
     .main-testimonial{
         margin-top: 500px;
-        height: 650px !important;
+        height: 750px !important;
         width: 80%;
     }
     .hero-testimonial{
@@ -602,7 +602,7 @@
     .child-testimonial{
         position: relative !important;
         left: -10px !important;
-        top: -40px !important;
+        top: 0px !important;
         
     }
     .child-testimonial:nth-child(2){
@@ -613,7 +613,7 @@
     .child-testimonial:nth-child(3){
         position: relative !important;
         left: -10px !important;
-        top: 0px !important;
+        top: 60px !important;
     }
     .review{
         position: relative !important;
@@ -701,7 +701,7 @@
     }
     .main-testimonial{
         margin-top: 500px;
-        height: 650px !important;
+        height: 750px !important;
         width: 80%;
     }
     .hero-testimonial{
@@ -711,7 +711,7 @@
     .child-testimonial{
         position: relative !important;
         left: -10px !important;
-        top: -40px !important;
+        top: 0px !important;
         
     }
     .child-testimonial:nth-child(2){
@@ -722,7 +722,7 @@
     .child-testimonial:nth-child(3){
         position: relative !important;
         left: -10px !important;
-        top: 0px !important;
+        top: 60px !important;
     }
     .review{
         position: relative !important;
@@ -810,7 +810,7 @@
     }
     .main-testimonial{
         margin-top: 500px;
-        height: 650px !important;
+        height: 750px !important;
         width: 80%;
     }
     .hero-testimonial{
@@ -820,7 +820,7 @@
     .child-testimonial{
         position: relative !important;
         left: -10px !important;
-        top: -40px !important;
+        top: 0px !important;
         
     }
     .child-testimonial:nth-child(2){
@@ -831,7 +831,7 @@
     .child-testimonial:nth-child(3){
         position: relative !important;
         left: -10px !important;
-        top: 0px !important;
+        top: 60px !important;
     }
     .review{
         position: relative !important;
@@ -915,7 +915,7 @@
     }
     .main-testimonial{
         margin-top: 400px;
-        height: 650px !important;
+        height: 750px !important;
         width: 80%;
     }
     .hero-testimonial{
@@ -925,7 +925,7 @@
     .child-testimonial{
         position: relative !important;
         left: -10px !important;
-        top: -40px !important;
+        top: 0px !important;
         
     }
     .child-testimonial:nth-child(2){
@@ -936,7 +936,7 @@
     .child-testimonial:nth-child(3){
         position: relative !important;
         left: -10px !important;
-        top: 0px !important;
+        top: 60px !important;
     }
     .review{
         position: relative !important;
@@ -1022,7 +1022,7 @@
 
 .all-card:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
-    transition: 0.6s;
+    transition: 0.6s !important;
 }
 
 .card-title {
@@ -1084,6 +1084,7 @@
 }
 
 .profile-cards:hover {
+    transition: 0.7s !important;
     height: 330px;
 }
 
@@ -1304,7 +1305,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", en
 }
 
 .child-testimonial:nth-child(2) {
-    transform: translateY(-30px);
+    position: relative;
+    top: -40px;
 }
 
 .child-testimonial:nth-child(3) {
