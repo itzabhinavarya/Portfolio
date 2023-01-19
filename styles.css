@@ -641,6 +641,13 @@
         position: relative !important;
         left: 40px !important;
     }
+    .social-icons{
+        display: flex;
+        gap: 3rem !important;
+    }
+    .main-footer p{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:400px) and (max-width:500px) {
@@ -751,14 +758,18 @@
         left: 40px !important;
     }
     .social-icons i{
-        margin: 20px !important;
+        /* margin: 20px !important; */
         font-size: 1.5rem !important;
         cursor: pointer;
     }
     .main-footer p{
         position: relative;
-        top: 35px;
+        top: 30px !important;
         font-size: 0.7rem !important;
+    }
+    .social-icons{
+        display: flex;
+        gap: 4rem !important;
     }
 }
 
@@ -870,14 +881,24 @@
         left: 0px !important;
     }
     .social-icons i{
-        margin: 20px !important;
+        /* margin: 20px !important; */
         font-size: 1.3rem !important;
         cursor: pointer;
     }
     .main-footer p{
         position: relative;
-        top: 35px;
+        /* top: 35px; */
         font-size: 0.5rem !important;
+    }
+    .main-footer p{
+        position: relative;
+        top: 30px !important;
+        font-size: 0.5rem !important;
+        font-weight: bolder !important;
+    }
+    .social-icons{
+        display: flex;
+        gap: 2.5rem !important;
     }
 }
 
@@ -985,14 +1006,24 @@
         left: -10px !important;
     }
     .social-icons i{
-        margin: 20px !important;
+        /* margin: 20px !important; */
         font-size: 0.9rem !important;
         cursor: pointer;
     }
     .main-footer p{
         position: relative;
-        top: 35px;
+        /* top: 35px; */
         font-size: 0.5rem !important;
+    }
+    .main-footer p{
+        position: relative;
+        top: 30px !important;
+        font-size: 0.4rem !important;
+        font-weight: bolder !important;
+    }
+    .social-icons{
+        display: flex;
+        gap: 2rem !important;
     }
 }
 
@@ -1455,16 +1486,25 @@ hr{
     font-family: 'Montserrat',monospace;
     font-weight: 600;
     letter-spacing: 2px;
+    position: relative;
+    top: 50px;
 }
+
+.social-icons a{
+    color: #000 ;
+    text-decoration: none !important;
+}
+
 
 .social-icons{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 6rem;
 }
 
 .social-icons i{
-    margin: 40px;
+    /* margin: 40px; */
     font-size: 2rem;
     cursor: pointer;
 }
