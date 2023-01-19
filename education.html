@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,8 +70,8 @@
     </div> -->
     <div class="hero">
         <div class="container d-lg-inline-flex main-page">
-            <img src="img/edu.png" alt="">
-            <div class="txt-pg">
+            <img src="img/edu.png" alt="" data-aos="slide-right" data-aos-duration="2000">
+            <div class="txt-pg" data-aos="fade-down" data-aos-duration="2000">
                 <h1>EDUCATION</h1>
                 <p>My education and Qualification</p>
             </div>
@@ -103,7 +104,7 @@
         </div>
     </div> -->
 
-        <div class="container rounded-lg bg-white shadow-lg sec-pg">
+        <div class="container rounded-lg bg-white shadow-lg sec-pg" data-aos="slide-right" data-aos-duration="2000">
             <div class="sec-img">
                 <img src="img/college-logo.png" alt="">
             </div>
@@ -149,6 +150,14 @@
             <img src="companies/Wipro.svg" alt="Wipro">
         </div>
         </marquee>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 120
+          });
+        </script>
 </body>
 
 </html>

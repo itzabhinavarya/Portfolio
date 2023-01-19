@@ -1652,6 +1652,7 @@ form{
     letter-spacing: 4px;
     font-family: 'Montserrat',monospace;
 }
+
 .submit-btn button:active{
     transition: 0.8s;
 }
