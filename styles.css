@@ -648,6 +648,9 @@
     .main-footer p{
         font-size: 0.8rem !important;
     }
+    .form-heading h3{
+        font-size: 1.1rem !important;
+    }
 }
 
 @media screen and (min-width:400px) and (max-width:500px) {
@@ -770,6 +773,9 @@
     .social-icons{
         display: flex;
         gap: 4rem !important;
+    }
+    .form-heading h3{
+        font-size: 1rem !important;
     }
 }
 
@@ -900,6 +906,9 @@
         display: flex;
         gap: 2.5rem !important;
     }
+    .form-heading h3{
+        font-size: 0.7rem !important;
+    }
 }
 
 @media screen and (min-width:200px) and (max-width:300px) {
@@ -1024,6 +1033,9 @@
     .social-icons{
         display: flex;
         gap: 2rem !important;
+    }
+    .form-heading h3{
+        font-size: 0.4rem !important;
     }
 }
 
