@@ -646,7 +646,7 @@
         gap: 3rem !important;
     }
     .main-footer p{
-        font-size: 1rem;
+        font-size: 0.8rem !important;
     }
 }
 
@@ -1488,6 +1488,7 @@ hr{
     letter-spacing: 2px;
     position: relative;
     top: 50px;
+    color: #000;
 }
 
 .social-icons a{
@@ -1552,4 +1553,93 @@ hr{
     top: -14px;
     left: -6px;
     letter-spacing: 1.5px;
+}
+
+
+/* Form */
+
+.main-form-section{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-heading{
+    display: flex;
+    justify-content: center;
+}
+.form-heading h3{
+    font-family: 'Montserrat',monospace;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    top: 10px;
+    font-size: 1.4rem;
+}
+
+
+
+
+.form-content{
+    padding: 30px;
+}
+
+input{
+    font-family: 'montserrat',monospace;
+}
+textarea{
+    font-family: 'montserrat',monospace;
+}
+
+input::placeholder{
+    font-family: 'Montserrat',monospace;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+textarea::placeholder{
+    font-family: 'Montserrat',monospace;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+/* input{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+textarea{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+} */
+
+
+input:focus{
+    box-shadow: none !important;
+    border-color: #32ded4 !important;
+    transition: 1s !important;
+}
+textarea:focus{
+    box-shadow: none !important;
+    border-color: #32ded4 !important;
+    transition: 0.8s;
+}
+textarea{
+    max-height: 100px !important;
+}
+form{
+    margin-top: 40px;
+    box-shadow: 1px 2px 10px 5px rgb(237, 234, 234); 
+}
+.submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn button{
+    width: 100px;
+    position: relative;
+    bottom: 15px;
+    letter-spacing: 4px;
+    font-family: 'Montserrat',monospace;
+}
+.submit-btn button:active{
+    transition: 0.8s;
 }
