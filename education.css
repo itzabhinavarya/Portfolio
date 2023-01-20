@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #fff;
     /* height: 100px; */
     /* background: url('img/Sprinkle1.svg'),#E0F6F8; */
 }
-.hero{
+
+.hero {
     background-color: #E0F6F8;
     height: 120vh;
 }
@@ -54,19 +56,21 @@ body{
     letter-spacing: 2px;
 } */
 
-.txt-pg{
+.txt-pg {
     width: 100%;
     text-align: center;
 }
-.txt-pg h1{
+
+.txt-pg h1 {
     font-family: 'PT mono';
     font-weight: 700;
-    font-size:30px;
+    font-size: 30px;
     letter-spacing: 2px;
     width: auto;
     height: auto;
 }
-.txt-pg p{
+
+.txt-pg p {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -74,20 +78,23 @@ body{
     align-items: center;
     font-family: 'PT mono';
     font-weight: 700;
-    font-size:1em;
+    font-size: 1em;
     width: 100%;
 }
-.first-card{
+
+.first-card {
     width: 1000px !important;
     height: 350px;
 }
-.first-card .img{
+
+.first-card .img {
     /* width: 50%; */
-    height: 30%;  
-    background: url('img/college-logo.png')no-repeat center; 
+    height: 30%;
+    background: url('img/college-logo.png')no-repeat center;
     height: 100%;
     width: 30%;
 }
+
 /* .sec-card{
     width: 1050px !important;
     height: 350px;
@@ -110,19 +117,22 @@ body{
     height: 100%;
     width: 60%;
 } */
-.edu-cards{
+.edu-cards {
     margin: 110px;
 }
-.sec-pg{
+
+.sec-pg {
     width: 80% !important;
     height: auto !important;
     display: flex;
     margin: 8% 10%;
 }
-.sec-img{
+
+.sec-img {
     width: 40% !important;
 }
-.sec-img img{
+
+.sec-img img {
     justify-content: center;
     align-items: center;
     min-height: auto;
@@ -130,13 +140,16 @@ body{
     position: relative;
     top: 90px;
 }
-#clz-btn{
+
+#clz-btn {
     margin-bottom: 10px;
 }
-.sec-heading{
+
+.sec-heading {
     width: 60%;
 }
-.third-page{
+
+.third-page {
     width: 80% !important;
     height: 50px !important;
     display: flex;
@@ -146,168 +159,192 @@ body{
     align-items: center;
     background-color: #E0F6F8 !important;
 }
-.third-page:hover{
+
+.third-page:hover {
     background-color: #000000 !important;
     transition: 0.7s;
 }
-.third-page:hover p{
+
+.third-page:hover p {
     color: #fff;
 }
-.third-page p{
+
+.third-page p {
     margin-top: 25px;
 }
-.dream-companies{
+
+.dream-companies {
     display: flex !important;
     width: 2000px !important;
 }
-.dream-companies img{
+
+.dream-companies img {
     width: 140px !important;
     height: 50px !important;
     margin: 40px !important;
 }
-.dream-companies img:nth-child(2){
+
+.dream-companies img:nth-child(2) {
     width: 200px !important;
     height: 100px !important;
     position: relative !important;
     top: -14px !important;
 }
-.dream-companies img:nth-child(4){
+
+.dream-companies img:nth-child(4) {
     position: relative !important;
     top: -20px !important;
     width: 200px !important;
     height: 100px !important;
 }
-@media screen and (min-width:1100px) and (max-width:1200px){
-    
-    
-}
-@media screen and (min-width:1060px) and (max-width:1100px){
-    .sec-pg{
+
+@media screen and (min-width:1100px) and (max-width:1200px) {}
+
+@media screen and (min-width:1060px) and (max-width:1100px) {
+    .sec-pg {
         position: relative;
         top: -22%;
     }
-    
+
 }
-@media screen and (min-width:1000px) and (max-width:1060px){
-    .sec-pg{
+
+@media screen and (min-width:1000px) and (max-width:1060px) {
+    .sec-pg {
         position: relative;
         top: -22%;
     }
-    
-}
-@media screen and (min-width:900px) and (max-width:1000px){
 
-    
 }
-@media screen and (min-width:800px) and (max-width:900px){
 
-    
-}
-@media screen and (min-width:700px) and (max-width:800px){
-    .sec-pg{
+@media screen and (min-width:900px) and (max-width:1000px) {}
+
+@media screen and (min-width:800px) and (max-width:900px) {}
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    .sec-pg {
         position: relative;
         left: 35px;
     }
-    
-} 
-@media screen and (min-width:600px) and (max-width:700px){
-    .sec-pg{
+
+}
+
+@media screen and (min-width:600px) and (max-width:700px) {
+    .sec-pg {
         width: auto !important;
         height: auto !important;
         display: block;
         margin: 7%;
     }
-    .sec-img{
+
+    .sec-img {
         width: 100% !important;
     }
-    .sec-img img{
+
+    .sec-img img {
         margin: auto;
     }
-    .sec-heading{
+
+    .sec-heading {
         position: relative;
         margin-top: 130px;
         width: 100%;
     }
-    
-} 
-@media screen and (min-width:500px) and (max-width:600px){
-    .sec-pg{
+
+}
+
+@media screen and (min-width:500px) and (max-width:600px) {
+    .sec-pg {
         width: auto !important;
         height: auto !important;
         display: block;
         margin: 6%;
     }
-    .sec-img{
+
+    .sec-img {
         width: 100% !important;
     }
-    .sec-img img{
+
+    .sec-img img {
         margin: auto;
     }
-    .sec-heading{
+
+    .sec-heading {
         position: relative;
         margin-top: 130px;
         width: 100%;
     }
-    
-} 
-@media screen and (min-width:400px) and (max-width:500px){
-    .sec-pg{
+
+}
+
+@media screen and (min-width:400px) and (max-width:500px) {
+    .sec-pg {
         width: auto !important;
         height: auto !important;
         display: block;
         margin: 5%;
     }
-    .sec-img{
+
+    .sec-img {
         width: 100% !important;
     }
-    .sec-img img{
+
+    .sec-img img {
         margin: auto;
     }
-    .sec-heading{
+
+    .sec-heading {
         position: relative;
         margin-top: 130px;
         width: 100%;
     }
-    
-} 
-@media screen and (min-width:300px) and (max-width:400px){
-    .sec-pg{
+
+}
+
+@media screen and (min-width:300px) and (max-width:400px) {
+    .sec-pg {
         width: auto !important;
         height: auto !important;
         display: block;
         margin: 4%;
     }
-    .sec-img{
+
+    .sec-img {
         width: 100% !important;
     }
-    .sec-img img{
+
+    .sec-img img {
         margin: auto;
     }
-    .sec-heading{
+
+    .sec-heading {
         position: relative;
         margin-top: 130px;
         width: 100%;
     }
-    
-} 
-@media screen and (min-width:200px) and (max-width:300px){
-    .sec-pg{
+
+}
+
+@media screen and (min-width:200px) and (max-width:300px) {
+    .sec-pg {
         width: auto !important;
         height: auto !important;
         display: block;
         margin: 3%;
     }
-    .sec-img{
+
+    .sec-img {
         width: 100% !important;
     }
-    .sec-img img{
+
+    .sec-img img {
         margin: auto;
     }
-    .sec-heading{
+
+    .sec-heading {
         position: relative;
         margin-top: 130px;
         width: 100%;
     }
-    
-} 
+
+}
 
