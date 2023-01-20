@@ -12,7 +12,16 @@ body {
 .hero {
     background-color: #E0F6F8;
     height: 120vh;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
 }
+.hero img{
+    width:50%;
+}
+
+
+
 
 /* .main-card-section{
     margin-top:50px;
@@ -225,6 +234,20 @@ body {
         position: relative;
         left: 35px;
     }
+    .hero{
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .hero img{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        left: 20%;
+    }
+    
 
 }
 
@@ -249,6 +272,21 @@ body {
         margin-top: 130px;
         width: 100%;
     }
+    .hero{
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .hero img{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        left: 15%;
+        width: 390px;
+    }
+    
 
 }
 
@@ -272,6 +310,20 @@ body {
         position: relative;
         margin-top: 130px;
         width: 100%;
+    }
+    .hero{
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .hero img{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        left: 10%;
+        width: 379px;
     }
 
 }
@@ -297,6 +349,20 @@ body {
         margin-top: 130px;
         width: 100%;
     }
+    .hero{
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .hero img{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        left: 5%;
+        width: 355px;
+    }
 
 }
 
@@ -321,6 +387,20 @@ body {
         margin-top: 130px;
         width: 100%;
     }
+    .hero{
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .hero img{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        left: 0%;
+        width: 300px;
+    }
 
 }
 
@@ -344,6 +424,20 @@ body {
         position: relative;
         margin-top: 130px;
         width: 100%;
+    }
+    .hero{
+        display: flex !important;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .hero img{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative;
+        left: 0%;
+        width: 200px;
     }
 
 }
