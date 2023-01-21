@@ -1526,7 +1526,7 @@ hr{
     transition: 0.8s;
 }
 
-.social-icons i:hover:nth-child(1)::after{
+/* .social-icons i:hover:nth-child(1)::after{
     content: 'Instagram';
     font-size: 0.5rem;
     position: absolute;
@@ -1565,7 +1565,7 @@ hr{
     top: -14px;
     left: -6px;
     letter-spacing: 1.5px;
-}
+} */
 
 
 /* Form */
@@ -1646,13 +1646,32 @@ form{
     justify-content: center;
 }
 .submit-btn button{
-    width: 100px;
+    width: 115px;
     position: relative;
     bottom: 15px;
     letter-spacing: 4px;
     font-family: 'Montserrat',monospace;
 }
-
-.submit-btn button:active{
-    transition: 0.8s;
+.submit-btn button:hover{
+    width: 120px;
+    transition: 1s;
 }
+.submit-btn button i{
+    position: relative;
+    color: #32ded4;
+}
+.submit-btn button:hover i{
+    animation: left-animate 1s infinite;
+}
+@keyframes left-animate{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left:10px;
+    }
+}
+
+/* .submit-btn button:active{
+    transition: 0.8s;
+} */
